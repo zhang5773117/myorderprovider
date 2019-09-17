@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: myorderprovider
+server:
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:ok@192.168.199.153:7001/eureka/
+  instance:
+    instance-id: myorderprovider8001
+    prefer-ip-address: true
+
